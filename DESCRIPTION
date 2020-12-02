@@ -1,0 +1,29 @@
+Type: Package
+Package: jrTimeSeries
+Title: Jumping Rivers: Time Series Analysis
+Version: 0.0.1
+Authors@R: 
+    person(given = "Jumping",
+           family = "Rivers",
+           role = c("aut", "cre"),
+           email = "info@jumpingrivers.com")
+Description: Practicals and data sets for the Time Series
+    Analysis course run by Jumping Rivers.
+License: GPL-3
+URL: https://github.com/jr-packages/jrTimeSeries
+Depends:
+    R (>= 3.5.0)
+Imports:
+    fable,
+    feasts,
+    ggplot2,
+    tsibble
+Suggests:
+    knitr,
+    lintr,
+    rmarkdown,
+    tufte
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+RoxygenNote: 7.1.1
